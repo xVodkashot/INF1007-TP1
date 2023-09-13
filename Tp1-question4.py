@@ -1,9 +1,9 @@
 # Affiche un menu d'opérations disponibles
-print("Chosissez une operation:"
-        "1. Addition"
-        "2. Soustraction"
-        "3. Multiplication"
-        "4. Division")
+print("Chosissez une operation:\n"
+        "1. Addition\n"
+        "2. Soustraction\n"
+        "3. Multiplication\n"
+        "4. Division\n")
 ### Ne donne pas la bonne chose 
 
 

@@ -1,12 +1,18 @@
 # Demander à l'utilisateur d'entrer les coefficients de l'équation quadratique
+a = float(input("Veuillez entrer la valeur de a (coefficient de x^2): "))
+b = float(input("Veuillez entrer la valeur de b (coefficient de x): "))
+c = float(input("Veuillez entrer la valeur de b (terme constant): "))
 
 # Calculer le discriminant
 
+delta = b^2 - 4*a*c
 
 # Vérifier si le discriminant est négatif (aucune racine réelle)
-naPasDeSolution = 
+if delta < 0:
+    naPasDeSolution = print("Le projectile n'attein jamais l'altitude desiree.")
 
 if naPasDeSolution:
+    print("Le projectile n'attteint jamais l'altitude desirer")
     # Cette ligne de code sera exécutée si le projectile n'atteint jamais l'altitude désirée.
 
 else:
